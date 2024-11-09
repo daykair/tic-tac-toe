@@ -12,7 +12,7 @@ export function WinnerModal({ winner, resetGame }) {
         <h2>{winnerText}</h2>
 
         <header className={tieClass}>
-          {winner && <Square>{winner}</Square>}
+          {winner && <Square visible={true}>{winner}</Square>}
         </header>
 
         <footer>
